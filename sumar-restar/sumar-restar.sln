@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumar", "sumar\sumar.csproj", "{AF77A2B6-A70B-46ED-9ED0-255DB3449A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sumar", "sumar\sumar.csproj", "{AF77A2B6-A70B-46ED-9ED0-255DB3449A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitTestSumar", "unitTestSumar\unitTestSumar.csproj", "{FF5BDD1E-152E-47B6-96D7-D1B1317597CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AF77A2B6-A70B-46ED-9ED0-255DB3449A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF77A2B6-A70B-46ED-9ED0-255DB3449A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF77A2B6-A70B-46ED-9ED0-255DB3449A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5BDD1E-152E-47B6-96D7-D1B1317597CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5BDD1E-152E-47B6-96D7-D1B1317597CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5BDD1E-152E-47B6-96D7-D1B1317597CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5BDD1E-152E-47B6-96D7-D1B1317597CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
