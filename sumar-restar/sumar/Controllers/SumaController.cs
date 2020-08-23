@@ -20,6 +20,11 @@ namespace sumar.Controllers
         {
             return (a + b);
         }
-
+        [HttpGet]
+        [Route("Multiply")]
+        public int mul([FromHeader] int a, [FromHeader] int b)
+        {
+            return (a * b);
+        }
     }
 }

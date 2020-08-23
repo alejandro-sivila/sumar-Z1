@@ -14,9 +14,26 @@ namespace unitTestSumar
             int a = 5;
             int b = 8;
             int expected = 13;
-            
+
             //act
             int result = sumaController.ADD(a, b);
+
+            //assert
+            Assert.AreEqual(expected, result);
+
+        }
+
+        [TestMethod]
+        public void TestMul()
+        {
+            //arrange
+            SumaController sumaController = new SumaController();
+            int a = 5;
+            int b = 8;
+            int expected = 40;
+
+            //act
+            int result = sumaController.mul(a, b);
 
             //assert
             Assert.AreEqual(expected, result);
