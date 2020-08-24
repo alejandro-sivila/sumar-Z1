@@ -12,6 +12,7 @@ namespace sumar.Controllers
     public class SumaController : ControllerBase
     {
         [HttpGet]
+        [Route("Add")]
         public int ADD(int a, int b) {
             return (a + b);
         }
