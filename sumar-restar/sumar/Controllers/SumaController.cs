@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace sumar.Controllers
 {
@@ -13,19 +8,29 @@ namespace sumar.Controllers
     {
         [HttpGet]
         [Route("Add")]
-        public int ADD(int a, int b) {
+        public int ADD(int a, int b)
+        {
             return (a + b);
         }
         [HttpPost]
-        public int ADD2([FromHeader]int a, [FromHeader] int b)
+        [Route("Add2")]
+        public int ADD2([FromHeader] int a, [FromHeader] int b)
         {
             return (a + b);
         }
+
         [HttpGet]
-        [Route("Multiply")]
-        public int mul([FromHeader] int a, [FromHeader] int b)
+        [Route("Mult")]
+        public int Mul(int a, int b)
         {
-            return (a * b);
+            return a * b;
+        }
+
+        [HttpPost]
+        [Route("Mult")]
+        public int Mul2([FromHeader] int a,[FromHeader] int b)
+        {
+            return a * b;
         }
     }
 }
