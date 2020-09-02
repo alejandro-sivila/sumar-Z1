@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace sumar.MODELS
 {
-    public class Class
+    public class Person
     {
-        public int Personid { get; set; }
+        public int PersonId { get; set; }
         public string Name { get; set; }
 
     }
